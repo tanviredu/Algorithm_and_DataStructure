@@ -1,0 +1,13 @@
+A:\Algorithm_and_DataStructure\1_node\bin\Debug\netcoreapp3.1\1_node.exe
+A:\Algorithm_and_DataStructure\1_node\bin\Debug\netcoreapp3.1\1_node.deps.json
+A:\Algorithm_and_DataStructure\1_node\bin\Debug\netcoreapp3.1\1_node.runtimeconfig.json
+A:\Algorithm_and_DataStructure\1_node\bin\Debug\netcoreapp3.1\1_node.runtimeconfig.dev.json
+A:\Algorithm_and_DataStructure\1_node\bin\Debug\netcoreapp3.1\1_node.dll
+A:\Algorithm_and_DataStructure\1_node\bin\Debug\netcoreapp3.1\1_node.pdb
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.csprojAssemblyReference.cache
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.csproj.CoreCompileInputs.cache
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.AssemblyInfoInputs.cache
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.AssemblyInfo.cs
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.dll
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.pdb
+A:\Algorithm_and_DataStructure\1_node\obj\Debug\netcoreapp3.1\1_node.genruntimeconfig.cache
