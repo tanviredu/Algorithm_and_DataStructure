@@ -1,0 +1,13 @@
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\bin\Debug\netcoreapp3.1\default_stack.exe
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\bin\Debug\netcoreapp3.1\default_stack.deps.json
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\bin\Debug\netcoreapp3.1\default_stack.runtimeconfig.json
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\bin\Debug\netcoreapp3.1\default_stack.runtimeconfig.dev.json
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\bin\Debug\netcoreapp3.1\default_stack.dll
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\bin\Debug\netcoreapp3.1\default_stack.pdb
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.csprojAssemblyReference.cache
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.csproj.CoreCompileInputs.cache
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.AssemblyInfoInputs.cache
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.AssemblyInfo.cs
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.dll
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.pdb
+A:\Algorithm_and_DataStructure\3_Stack\default_stack\obj\Debug\netcoreapp3.1\default_stack.genruntimeconfig.cache
