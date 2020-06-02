@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace with_generic
 {
@@ -6,7 +7,22 @@ namespace with_generic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Queue<string> q = new Queue<string>();
+            q.Enqueue("one");
+            q.Enqueue("two");
+            q.Enqueue("three");
+            q.Enqueue("four");
+            q.Enqueue("five");
+            
+            foreach(var item in q){
+                Console.WriteLine(item);
+            }
+            
+            q.Dequeue();
+            Console.WriteLine(q.Peek());
+            q.Dequeue(); 
+            Console.WriteLine(q.Peek());
         }
     }
 }
