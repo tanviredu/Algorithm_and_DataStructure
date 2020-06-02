@@ -29,7 +29,12 @@ namespace _1_node
             first.Next = second;
             second.Next = third;
             
+            
+            
+            
             PrintChain(first); // this is the starting of the chain
+            
+            
             
             
         }
@@ -43,6 +48,10 @@ namespace _1_node
             }
 
         }
+        
+        
+       
+        
         
         
     }
