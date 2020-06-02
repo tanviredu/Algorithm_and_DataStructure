@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "scratch_implement/1.0.0": {
+        "runtime": {
+          "scratch_implement.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "scratch_implement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

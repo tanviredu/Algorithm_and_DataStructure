@@ -17,7 +17,11 @@ namespace scratch_implement{
         public int Count{get;private set;}
         
 
-        public bool IsReadOnly => throw new NotImplementedException();
+        public bool IsReadOnly {
+            get{
+                return false;
+            }
+        }
 
         public void Add(T item)
         {
@@ -160,7 +164,10 @@ namespace scratch_implement{
         
         public void Clear()
         {
-            throw new NotImplementedException();
+           // reset the whole thing
+           Head = null;
+           Tail = null;
+           Count = 0;
         }
         
         // it will tell if a value
@@ -184,22 +191,82 @@ namespace scratch_implement{
 
         public void CopyTo(T[] array, int arrayIndex)
         {
-            throw new NotImplementedException();
+            // this will convert to the array
+            
+            LinkedListNode<T> current = Head;
+            while(current != null){
+                array[arrayIndex++] = current.Value;
+                current =current.Next;
+            }
         }
 
-        public IEnumerator<T> GetEnumerator()
+        public IEnumerator GetEnumerator()
         {
-            throw new NotImplementedException();
+             return ((System.Collections.Generic.IEnumerable<T>)this).GetEnumerator();
         }
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            LinkedListNode<T> current = Head;
+            LinkedListNode<T> previous = null;
+            
+            while(current!=null){
+                if (current.Value.Equals(item)){
+                    // Before: Head -> 3 -> 5 -> null
+                    // After:  Head -> 3 ------> null
+                    /// [1,2],[2,3],[3,4],[4,5]
+                    // 3 is the target
+                    // previous.next = 4
+                    // and current.next = 5
+                    //so [1,2],[2,3],[3,5]
+                    
+                    // but if it is like this
+                    //[1,2],[2,3],[3,4],[4,5],[5,null]
+                    // and target is 5 
+                    // then remove 5 and and 
+                    // tail is [4,null]
+                    
+                    if(previous!=null){
+                        previous.Next = current.Next;
+                        
+                        if(current.Next == null){
+                            Tail = previous;
+                        }
+                        Count--;
+                    }else{
+                        // remove the first
+                        RemoveFirst();
+                    }
+                    return true; // we found the element and remove it
+                    
+                }
+                
+                // for every loop
+                // after the work we assign the current to the 
+                // previous and then update the current to the next
+                previous = current;
+                current = current.Next;
+            }
+            // if it is the totally empty
+            // means current ==null
+            // then 
+            return false;// cant remove anything
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+         IEnumerator<T> IEnumerable<T>.GetEnumerator()
         {
-            throw new NotImplementedException();
+           // this is a effieient looping 
+           // through the chain
+           // it will return a Generic collection
+           //that is iterable
+           // and the method name is GetEnumerator()
+           // and it is efficient because we use yeild
+           LinkedListNode<T> current = Head;
+           while(current !=null){
+               yield return current.Value;
+               current = current.Next;
+           }
+           
         }
     }
 }    
